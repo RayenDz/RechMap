@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>البحث عن الأماكن</title>
+    <title>Recherche de Lieux</title>
     <style>
         body {
             background: transparent;
@@ -45,7 +45,7 @@
             background-color: #1f4b73;
         }
 
-        /* Media Queries for Responsive Design */
+        /* Media Queries pour un design responsive */
         @media (max-width: 768px) {
             .search-box input, .search-box button {
                 width: 100%;
@@ -62,10 +62,10 @@
 </head>
 <body>
     <div class="search-box">
-        <h2>البحث عن الأماكن</h2>
-        <input type="text" id="place1" placeholder="أدخل المكان الأول">
-        <input type="text" id="place2" placeholder="أدخل المكان الثاني">
-        <button onclick="searchPlaces()">ابحث عن البعد</button>
+        <h2>Recherche de Lieux</h2>
+        <input type="text" id="place1" placeholder="Entrez le premier lieu">
+        <input type="text" id="place2" placeholder="Entrez le deuxième lieu">
+        <button onclick="searchPlaces()">Rechercher la Distance</button>
     </div>
 
     <script>
@@ -81,10 +81,9 @@
                 
                 window.open(url, '_blank');
             } else {
-                alert('يرجى إدخال كلا المكانين للبحث عن المسافة بينهما.');
+                alert('Veuillez entrer les deux lieux pour rechercher la distance entre eux.');
             }
         }
     </script>
 </body>
 </html>
-
